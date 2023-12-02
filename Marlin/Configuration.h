@@ -1627,9 +1627,9 @@
 
 // Disable axis steppers immediately when they're not being stepped.
 // WARNING: When motors turn off there is a chance of losing position accuracy!
-#define DISABLE_X true
-#define DISABLE_Y true
-#define DISABLE_Z true
+#define DISABLE_X false
+#define DISABLE_Y false
+#define DISABLE_Z false
 //#define DISABLE_I false
 //#define DISABLE_J false
 //#define DISABLE_K false
