@@ -34,7 +34,7 @@
 #endif
 
 // Prevents hanging from an extra watchdog init
-#define DISABLE_WATCHDOG_INIT
+// #define DISABLE_WATCHDOG_INIT // Comment this out for Malyan M200 V2 boards.
 
 // Assume Flash EEPROM
 #if NO_EEPROM_SELECTED
