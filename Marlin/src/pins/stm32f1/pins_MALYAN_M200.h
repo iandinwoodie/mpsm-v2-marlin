@@ -91,5 +91,3 @@
 
 #define MALYAN_FAN1_PIN                     PB8   // FAN1 header on board - PRINT FAN
 #define MALYAN_FAN2_PIN                     PB3   // FAN2 header on board - CONTROLLER FAN
-
-#define FAN1_PIN                 MALYAN_FAN2_PIN
