@@ -671,8 +671,8 @@
     #define DEFAULT_Kd_LIST { 100.00, 100.00 }
   #else
     #define DEFAULT_Kp  20.00
-    #define DEFAULT_Ki   2.02
-    #define DEFAULT_Kd 100.00
+    #define DEFAULT_Ki   0.02
+    #define DEFAULT_Kd 250.00
   #endif
 #endif
 
@@ -760,9 +760,9 @@
   //#define DEFAULT_bedKd 295.34
 
   // Malyan M200
-  #define DEFAULT_bedKp 14.00
-  #define DEFAULT_bedKi 0.9
-  #define DEFAULT_bedKd 120.4
+  #define DEFAULT_bedKp 10.00
+  #define DEFAULT_bedKi 0.02
+  #define DEFAULT_bedKd 305.40
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
